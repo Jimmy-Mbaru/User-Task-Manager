@@ -1,0 +1,19 @@
+{
+  "name": "user-task-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "start":"node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.15.19",
+    "inquirer": "^12.6.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
