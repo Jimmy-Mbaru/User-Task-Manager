@@ -8,6 +8,9 @@ On adding a user to the system, the dropdown updates and display the new user's 
 # After Edits...
 ![alt text](<Screenshot 2025-05-23 164239.png>)
 # Features....
+# F1
 Edit button: Edit title task and description.
-Unassign button: Unasign task
-Delete button: Delete task
+# F2 
+Unassign button: Unasign task.
+# F3
+Delete button: Delete task.
