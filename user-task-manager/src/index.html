@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>User Task Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <h1>User & Task <br> Management System</h1>
+
+  <div class="container">
+
+    <!-- Add User -->
+    <section>
+      <h2>Add User</h2>
+      <form id="userForm">
+        <input type="text" id="userName" placeholder="Name" required />
+        <input type="email" id="userEmail" placeholder="Email" required />
+        <button type="submit">Add User</button>
+      </form>
+    </section>
+
+    <!-- Add Task -->
+    <section>
+      <h2>Add Task</h2>
+      <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Task Title" required />
+        <input type="text" id="taskDescription" placeholder="Description" required />
+        <select id="taskAssignee">
+          <option value="">Assign to...</option>
+        </select>
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <!-- Display Users and Tasks -->
+    <section>
+      <h2>Tasks List</h2>
+      <div id="taskList"></div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
