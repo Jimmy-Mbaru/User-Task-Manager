@@ -12,7 +12,7 @@ const taskDescInput = document.getElementById("taskDescription");
 const taskAssigneeSelect = document.getElementById("taskAssignee");
 const taskListDiv = document.getElementById("taskList");
 
-// Helper to update dropdown
+// Update dropdown
 function updateUserDropdown() {
   taskAssigneeSelect.innerHTML = `<option value="">Assign to...</option>`;
   users.forEach(user => {
@@ -68,7 +68,9 @@ userForm.addEventListener("submit", e => {
   userEmailInput.value = "";
 });
 
-// Event: Add Task
+// Events: 
+
+// Add Task
 taskForm.addEventListener("submit", e => {
   e.preventDefault();
   const title = taskTitleInput.value.trim();

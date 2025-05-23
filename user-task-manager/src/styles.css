@@ -8,8 +8,9 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient( red, black);
     margin-top: 3rem;
-    height: 100vh auto;
+    height: 100vh;
     padding: 0;
+    overflow-y: hidden;
     
 }
 
